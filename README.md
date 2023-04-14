@@ -1,66 +1,69 @@
 ![Lemon](Resource/lemon_banner.png)
-## 项目简介
-针对中国用户习惯性清理的特点，打造了腾讯柠檬清理，系统性解决macOS设备空间问题。重点聚焦清理功能，对上百款软件提供定制化的清理方案，提供专业的清理建议，帮助用户轻松完成一键式的清理。另外还提供相似照片清理、大文件清理、隐私清理、应用卸载和开机启动项保护等功能，帮助用户多维度的管理自己的电脑。整体设计上清新简洁，状态栏小巧好用，是一款Mac设备必备的实用工具。
+## Project Description
+In response to the characteristics of Chinese users' habitual cleaning, Tencent Lemon Cleaner was created to systematically solve the space problem of macOS devices. Focusing on the cleaning function, it provides customized cleaning solutions for hundreds of software, provides professional cleaning suggestions, and helps users easily complete one-click cleaning. In addition, it also provides functions such as similar photo cleaning, large file cleaning, privacy cleaning, application uninstallation and startup item protection, etc., to help users manage their computers in multiple dimensions. The overall design is fresh and simple, and the status bar is small and easy to use. It is a necessary and practical tool for Mac devices.
 
 <img src="Resource/lemon_app.png" alt="lemon_app" style="zoom:80%;" />
 
-## 功能亮点
+## Feature Highlights
 
-1. 深度扫描清理：针对Xcode、Sketch等常见应用逐一定制扫描方案，精准分析应用文件，分类通俗易懂，随时保持Mac干净清爽。
-2. 大文件清理：全面查找占用超过50M的大文件，揪出磁盘元凶，支持自定义扫描文件夹。
-3. 重复文件清理：智能比对重复内容，腾出磁盘空间，支持自定义扫描文件夹。
-4. 相似照片清理：整理相册好帮手，极速筛选相似照片，支持自定义扫描文件夹。
-5. 浏览器隐私清理：保护浏览器隐私，防止恶意窃取，支持Safari/Chrome等多款浏览器。
-6. 应用卸载：清理应用更干净，不怕卸载有残留。
-7. 开启启动项管理：管理应用开机自启动，运行环境更舒适。
-8. 自定义状态栏展示信息：支持自定义在状态栏实时显示内存占用、磁盘空间、CPU温度、风扇转速、网速等信息。
-9. 更多功能等你来探索！
-
-
-## 技术模块
-- Lemon：主工程。
-- LemonMonitor：状态栏。
-- LemonBigOldFile：用于大文件清理。
-- LemonDuplicateFile：用于重复文件清理。
-- LemonPhotoClean：用于相似照片清理。
-- LemonUninstaller：用于应用卸载。
-- LemonPrivacyClean：用于隐私清理。
-- LemonLoginItemManager：用于开机启动管理。
-- LemonSpaceAnalyse：用于磁盘空间分析。
-- LemonFileMove：用于文件搬家。
-- LemonHardware：用于硬件信息获取。
-- LemonNetSpeed：用于网络测速。
-- LemonCleaner：用于实际清理操作。
+1.  Deep scan and cleanup: Customize the scan scheme one by one for common applications such as Xcode and Sketch, accurately analyze application files, and classify them in an easy-to-understand manner, keeping your Mac clean and fresh at any time.
+2.  Large file cleaning: comprehensively search for large files that occupy more than 50M, find out the disk culprit, and support custom scanning folders.
+3.  Duplicate file cleaning: intelligently compare duplicate content, free up disk space, and support custom scan folders.
+4.  Clean up similar photos: A good helper to organize albums, quickly filter similar photos, and support custom scan folders.
+5.  Browser privacy cleaning: protect browser privacy, prevent malicious theft, support Safari/Chrome and other browsers.
+6.  App uninstallation: Cleaning up the app is cleaner, and you are not afraid of uninstalling leftovers.
+7.  Enable startup item management: manage apps to start automatically at startup, making the operating environment more comfortable.
+8.  Custom status bar display information: Support custom display of memory usage, disk space, CPU temperature, fan speed, network speed and other information in real time in the status bar.
+9.  More features are waiting for you to explore!
 
 
-## 贡献
+## Technology module
+
+-   Lemon: Main project.
+-   LemonMonitor: status bar.
+-   LemonBigOldFile: Used for large file cleanup.
+-   LemonDuplicateFile: Used for duplicate file cleanup.
+-   LemonPhotoClean: for similar photo cleaning.
+-   LemonUninstaller: Used for app uninstallation.
+-   LemonPrivacyClean: for privacy cleaning.
+-   LemonLoginItemManager: used for boot management.
+-   LemonSpaceAnalyse: for disk space analysis.
+-   LemonFileMove: used for file moving.
+-   LemonHardware: used to obtain hardware information.
+-   LemonNetSpeed: Used for network speed measurement.
+-   LemonCleaner: for the actual cleaning operation.
+
+
+## Contribute
+
 ### Issue
-如果您发现新的Bug、想要新功能或提出建议，您可以在GitHub上Issue，请按照Issue模板中的准则进行操作。提交问题之前，请确保满足以下条件：
 
-- 必须是错误或新功能。
-- 已在问题中不存在类似的问题或解决方案。
-- 创建新问题时，请提供详细说明。
+If you find a new bug, want a new feature, or make a suggestion, you can issue an issue on GitHub, please follow the guidelines in the issue template. Before submitting an issue, please ensure the following conditions are met:
+
+-   Must be a bug or new feature.
+-   No similar problem or solution exists in the question already.
+-   When creating a new issue, please provide detailed instructions.
 
 ### Pull Requests
-欢迎大家贡献代码，代码团队将监控所有pull请求，我们将进行相应的代码检查和测试。请在完成PR之前确认以下几点：
 
-- 请在修改代码后修改相应的文档和注释
-- 请在新创建的文件中添加许可证和版权声明。
-- 进行充分的测试。
-- 请遵循相关的代码编写规范。
+Everyone is welcome to contribute code, the code team will monitor all pull requests, and we will conduct corresponding code inspections and tests. Please confirm the following points before completing the PR:
 
+-   Please modify the corresponding documentation and comments after modifying the code
+-   Please add a license and copyright notice to the newly created file.
+-   Do ample testing.
+-   Please follow the relevant coding standards.
 
 ## License
+
 Lemon Cleaner uses 2 different licenses :
 
-- the files in the LemonDaemon module use a GPL v2 license
-- all other files in the Lemon Monitor and Lemon Cleaner use a GPL v3 license, unless explicitly stated otherwise
+-   the files in the LemonDaemon module use a GPL v2 license
+-   all other files in the Lemon Monitor and Lemon Cleaner use a GPL v3 license, unless explicitly stated otherwise
 
-The files in LemonDaemon module is licensed under the GNU General Public License, version 2 except for the third-party components as listed in the license text for LemonDaemon.
+The files in LemonDaemon module are licensed under the GNU General Public License, version 2 except for the third-party components as listed in the license text for LemonDaemon.
 
 The files in modules Lemon Monitor and Lemon Cleaner are licensed under the GNU General Public License, version 3 except for the third-party components as listed in the license text for Lemon Monitor and Lemon Cleaner.
 
+## Official website
 
-## 官网
-[腾讯柠檬清理](https://lemon.qq.com)
-
+[Tencent lemon cleaning](https://translate.google.com/website?sl=auto&tl=en&hl=en&client=webapp&u=https://lemon.qq.com)
